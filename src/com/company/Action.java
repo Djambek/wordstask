@@ -2,8 +2,11 @@ package com.company;
 
 public class Action {
     private String text;
+    private Integer DestinationID;
     String getText(){
         return text;
     }
-    //int getDestinationID(){} след. локация
+    Integer getDestinationID(){
+        return DestinationID;
+    }
 }
