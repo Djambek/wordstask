@@ -2,20 +2,23 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Location extends Action{ // Ilja you look like sus?
-    private String text;
-    private Integer ID;
-    private ArrayList<Action> actions = new ArrayList<Action>();
+public class Location{ // Ilja you look like sus?
+    int ID;
+    String text;
+    Action[] actions = new Action[];
+    public Location(int ID, String text, Action[] actions){
+        this.ID = ID;
+        this.text = text;
+        this.actions = actions;
+    }
+    //private ArrayList<Action> actions = new ArrayList<Action>();
     String getText(){
         return this.text;
-    }
-    void addAction(Action a){
-        actions.add(a);
     }
     Integer getID(){
         return ID;
     }
-    ArrayList<Action> getActions(){
+    Action[] getActions(){
         return actions;
     }
 }
