@@ -5,5 +5,5 @@ public class Action {
     String getText(){
         return text;
     }
-    int getDestinationID(){}
+    //int getDestinationID(){} след. локация
 }
