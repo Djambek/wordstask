@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.ArrayList;
-
 public class Location{ // Ilja you look like sus?
     int ID;
     String text;
