@@ -2,10 +2,10 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Location{
+public class Location{ // Ilja you look like sus?
     int ID;
     String text;
-    Action[] actions;
+    Action[] actions = new Action[];
     public Location(int ID, String text, Action[] actions){
         this.ID = ID;
         this.text = text;
