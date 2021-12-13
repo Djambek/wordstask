@@ -3,9 +3,12 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        String s1 = "ABC";
-        String s2 = "ABC";
-        System.out.println((s1 == s2) + " "+ (s1.equals(s2)));
+        System.out.println();
+        Storage storage = new Storage();
+        //View view = new View();
+        Game game = new Game(storage);
+        game.start();
+
     }
 
 }

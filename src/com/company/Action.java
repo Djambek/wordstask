@@ -12,7 +12,7 @@ public class Action {
     String getText(){
         return text;
     }
-    Integer getDestinationID(){
+    int getDestinationID(){
         return DestinationID;
     }
 }
