@@ -1,7 +1,6 @@
 package com.company;
 
 public class Storage {
-    //private ArrayList<Location> locations = new ArrayList<Location>();
     Location[] locs = new Location[5];
 
     public Storage(){

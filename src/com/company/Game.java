@@ -9,7 +9,7 @@ public class Game implements UserChoiceListener{
         this.view = new View(this);
     }
     void start(){
-        int idLoc = 0;
+        int idLoc = 1;
 
         currentLocation = storage.getLocation(idLoc);
         //view.showLocation(currentLocation);
